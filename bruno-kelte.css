@@ -1,0 +1,86 @@
+/* === RESET GLOBAL === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === BACKGROUND COM A IMAGEM === */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: url("peter-griffin-helps-feed-african-children-in-need-v0-wjl9r6sffk8d1.webp") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  line-height: 1.7;
+  padding: 20px;
+  backdrop-filter: brightness(0.9);
+  max-width: 900px;
+  margin: auto;
+}
+
+/* === TÍTULO PRINCIPAL === */
+h1 {
+  text-align: center;
+  font-size: 2.8em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ffdf5d;
+  margin: 12px auto 0 auto;
+  border-radius: 2px;
+}
+
+/* === SUBTÍTULOS === */
+.tittle {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 30px 0 15px;
+  color: #ffdf5d;
+}
+
+/* === PARÁGRAFOS === */
+p {
+  margin-bottom: 20px;
+  font-size: 1.05em;
+  background: rgba(0,0,0,0.6);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+/* === BOTÃO VOLTAR === */
+.voltar-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ffdf5d;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-size: 1em;
+}
+
+.btn-voltar:hover {
+  background: #f5d84f;
+  transform: scale(1.05);
+}
